@@ -33,8 +33,8 @@ function App() {
       }))
     }
     }
-    const onSubmitHandler = (event) => {
-      event.preventDefault()
+    const onSubmitHandler = () => {
+      // event.preventDefault()
       console.table(formDate)
     }
   return (
