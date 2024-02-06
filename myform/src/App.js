@@ -34,7 +34,6 @@ function App() {
     }
     }
     const onSubmitHandler = () => {
-      // event.preventDefault()
       console.table(formDate)
     }
   return (
